@@ -61,7 +61,7 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <form>
+                            <form id="contacForm">
                                 <div class="form-group">
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
@@ -71,7 +71,7 @@
                                             </i>
                                         </span>
                                         </div>
-                                        <input type="text" class="form-control" placeholder="Nombre completo">
+                                        <input type="text" class="form-control" placeholder="Nombre completo" id="name">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -83,7 +83,7 @@
                                             </i>
                                         </span>
                                         </div>
-                                        <input type="email" class="form-control" placeholder="Correo Electronico">
+                                        <input type="email" class="form-control" placeholder="Correo Electronico" id="email">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -95,7 +95,19 @@
                                             </i>
                                         </span>
                                         </div>
-                                        <input type="number" class="form-control" placeholder="Telefono">
+                                        <input type="number" class="form-control" placeholder="Telefono" id="phone">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text px-3">
+                                            <i class="material-icons">
+                                                phone
+                                            </i>
+                                        </span>
+                                        </div>
+                                        <textarea class="form-control" id="mensaje"></textarea>
                                     </div>
                                 </div>
                                 <button type="submit" class="btn btn-primary w-100">Enviar</button>
@@ -108,5 +120,18 @@
     </div>
 
   <script src="js/script.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDM3NjrWVs4D9NYEY3NLYvrhFoqwNuLYUY",
+        authDomain: "formulario-contacto-1f6a5.firebaseapp.com",
+        databaseURL: "https://formulario-contacto-1f6a5.firebaseio.com",
+        projectId: "formulario-contacto-1f6a5",
+        storageBucket: "formulario-contacto-1f6a5.appspot.com",
+        messagingSenderId: "987439260779"
+    };
+    firebase.initializeApp(config);
+    </script>
 </body>
 </html>

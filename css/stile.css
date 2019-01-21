@@ -7,7 +7,6 @@
 .header-content {
   height: 550px;
   position: relative;
-  overflow: hidden;
   background-position: center;
   background-size: cover;
 }
