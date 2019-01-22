@@ -21,7 +21,19 @@ $white: #ffffff;
     padding: 7% 0%;
     box-sizing: border-box;
     position: relative;
+
     background: linear-gradient(top right, #8e2de2, #211D60);
+
+    &::before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+       background-image: url(../img/crypto-bg-02.png);
+        background-size: cover;
+    }
 
 .header-info{
     position: relative;
@@ -53,6 +65,61 @@ $white: #ffffff;
         }
     }
 }
-.tarjeta{
-    
+.avatar-conten  {
+    width: 200px;
+    margin: 0 auto;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: $primary;
+    box-sizing: border-box;
+    padding: 5px;
+    img{
+        border-radius: 50%
+    }
+}
+.info-avatar{
+    width: 300px;
+    background: linear-gradient(top right, #8e2de2, #211D60);
+    margin: 0 auto;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    font-size: 19px;
+    color: $white;
+    position: relative;
+
+    &::before{
+        width: 10%;
+        content: "";
+        height: 50px;
+        position: absolute;
+       
+        border-left: 40px solid #211d60;
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        transform: rotate(90deg);
+        bottom: -47px;
+        left: 43%;
+
+    }
+
+}
+.contact{
+    background-image: url(../img/office.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background :linear-gradient(top right, #211D60, #8e2de2); 
+        filter: opacity(0.7);
+    }
 }
