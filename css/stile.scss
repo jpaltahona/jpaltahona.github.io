@@ -1,37 +1,40 @@
+$primary: #574EAA;
+$secondary: #A9C1EE;
+$third: #6963CD;
+$four: #322D96;
+$five: #211D60;
+$six: #8299A3;
+$white: #ffffff;
+
 .active{
-    border: solid 1px #ffffff;
+    border: solid 1px $third;
     border-radius: 4px;
-    color: #ffffff !important;
+    color: $third !important;
+    
     
 }
+.bg-color{
+    background-color: $white;
+    box-shadow: 0px 0px 13px -3px rgba(0, 0, 0, 0.39);
+}
 .header-content{
-    height: 550px;
+    padding: 7% 0%;
+    box-sizing: border-box;
     position: relative;
-   
-    background-position: center;
-    background-size: cover;
-    &::before{
-        content: '';
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        top: 0px;
-        left: 0px;
-        background-image: linear-gradient(170deg, #051937 66%, #ffffff 59%);
-       
-    }
+    background: linear-gradient(top right, #8e2de2, #211D60);
+
 .header-info{
     position: relative;
-    top: 30%;
-
+   
     .title{
         font-size: 38px;
         line-height: 50px;
-        color: #ffffff;
+        color: $white;
     }
     .subtitle{
         font-size: 20px;
         line-height: 30px;
+        color: $white;
         }
     }
 }
@@ -39,7 +42,7 @@
 .from-card{
     width: 340px;
     position: relative;
-    top: 30%;
+
     margin: 0 auto;
 
     .img-card{
@@ -49,4 +52,7 @@
             width: 100%;
         }
     }
+}
+.tarjeta{
+    
 }

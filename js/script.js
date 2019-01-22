@@ -5,9 +5,9 @@ window.onscroll = function(){
 function myfunction(){
     var menu = document.getElementById('menu');
     if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
-        menu.className = 'navbar navbar-expand-lg navbar-dark bg-primary fixed-top';
+        menu.className = 'navbar navbar-expand-lg bg-color fixed-top';
     } else{
-        menu.className = 'navbar navbar-expand-lg navbar-dark bg-transp fixed-top'; 
+        menu.className = 'navbar navbar-expand-lg fixed-top'; 
     }
 };
 
