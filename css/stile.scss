@@ -9,9 +9,7 @@ $white: #ffffff;
 .active{
     border: solid 1px $third;
     border-radius: 4px;
-    color: $third !important;
-    
-    
+    color: $third !important; 
 }
 .bg-color{
     background-color: $white;
@@ -78,34 +76,7 @@ $white: #ffffff;
         border-radius: 50%
     }
 }
-.info-avatar{
-    width: 300px;
-    background: linear-gradient(top right, #8e2de2, #211D60);
-    margin: 0 auto;
-    height: 150px;
-    box-sizing: border-box;
-    padding: 10px;
-    text-align: center;
-    font-size: 19px;
-    color: $white;
-    position: relative;
 
-    &::before{
-        width: 10%;
-        content: "";
-        height: 50px;
-        position: absolute;
-       
-        border-left: 40px solid #211d60;
-        border-top: 30px solid transparent;
-        border-bottom: 30px solid transparent;
-        transform: rotate(90deg);
-        bottom: -47px;
-        left: 43%;
-
-    }
-
-}
 .contact{
     background-image: url(../img/office.jpg);
     background-size: cover;
@@ -122,4 +93,21 @@ $white: #ffffff;
         background :linear-gradient(top right, #211D60, #8e2de2); 
         filter: opacity(0.7);
     }
+}
+.conte-info{
+    padding-top: 5%;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        height: 7px;
+        width: 15%;
+        background-color: $primary;
+        border-radius: 40px;
+    }
+}
+.text-infor{
+    font-size: 1rem;
+    color: #424141;
 }

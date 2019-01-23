@@ -3,7 +3,7 @@ window.onscroll = function(){
     myfunction()
 };
 function myfunction(){
-    var menu = document.getElementById('menu');
+    const menu = document.getElementById('menu');
     if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
         menu.className = 'navbar navbar-expand-lg bg-color fixed-top';
     } else{
@@ -42,3 +42,7 @@ const form = document.getElementById('contacForm'); // Obtenemos la referencia a
         alert('mensaje No guardado'); // En caso de ocurrir un error le mostramos al usuario que ocurrió un error.
       });
   };
+
+
+
+  

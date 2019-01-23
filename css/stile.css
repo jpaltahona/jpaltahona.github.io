@@ -77,35 +77,6 @@
   border-radius: 50%;
 }
 
-.info-avatar {
-  width: 300px;
-  background: -webkit-gradient(linear, right top, left bottom, from(#8e2de2), to(#211D60));
-  background: linear-gradient(top right, #8e2de2, #211D60);
-  margin: 0 auto;
-  height: 150px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 10px;
-  text-align: center;
-  font-size: 19px;
-  color: #ffffff;
-  position: relative;
-}
-
-.info-avatar::before {
-  width: 10%;
-  content: "";
-  height: 50px;
-  position: absolute;
-  border-left: 40px solid #211d60;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  bottom: -47px;
-  left: 43%;
-}
-
 .contact {
   background-image: url(../img/office.jpg);
   background-size: cover;
@@ -124,5 +95,25 @@
   background: linear-gradient(top right, #211D60, #8e2de2);
   -webkit-filter: opacity(0.7);
           filter: opacity(0.7);
+}
+
+.conte-info {
+  padding-top: 5%;
+  position: relative;
+}
+
+.conte-info::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  height: 7px;
+  width: 15%;
+  background-color: #574EAA;
+  border-radius: 40px;
+}
+
+.text-infor {
+  font-size: 1rem;
+  color: #424141;
 }
 /*# sourceMappingURL=stile.css.map */
