@@ -1,15 +1,3 @@
-// para cambiar el color del menu
-window.onscroll = function(){
-    myfunction()
-};
-function myfunction(){
-    const menu = document.getElementById('menu');
-    if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
-        menu.className = 'navbar navbar-expand-lg bg-color fixed-top';
-    } else{
-        menu.className = 'navbar navbar-expand-lg fixed-top'; 
-    }
-};
 
 const form = document.getElementById('contacForm'); // Obtenemos la referencia al formulario
 
@@ -42,7 +30,16 @@ const form = document.getElementById('contacForm'); // Obtenemos la referencia a
         alert('mensaje No guardado'); // En caso de ocurrir un error le mostramos al usuario que ocurrió un error.
       });
   };
+// VENTANA MODAL
+// let modal = document.getElementById('miModal');
+// let flex = document.getElementById('flex');
+// let abrir = document.getElementById('btnContact').addEventListener('click', open);
+// let cerrar = document.getElementById('close').addEventListener('click', close);
 
+// function open (){
+//    modal.style.display = 'block';
+//};
 
-
-  
+// function close(){
+//  modal.style.display = 'none';
+//};
