@@ -11,7 +11,7 @@ import { SocialLinks } from "@/lib/data";
 
 const Contact = () => {
     const [isCopied, setIsCopied] = useState(false);
-    const email = "coderredoy@gmail.com";
+    const email = "jpaltahonacc@gmail.com";
 
     const handleCopyEmail = async () => {
         try {
@@ -30,13 +30,12 @@ const Contact = () => {
     return (
         <Container id="contact">
             <div className="self-center">
-                <Tag label="Contact" />
+                <Tag label="Contacto" />
             </div>
             <div className="flex flex-col items-center gap-y-6 md:gap-y-12">
                 <p className="text-center max-w-xl mx-auto md:text-lg">
-                    I am always open to discussing work or partnership
-                    opportunities. So feel free to reach out and I will get back
-                    to you as soon as possible.
+                Estoy siempre abierto a conversar sobre oportunidades laborales o colaboraciones estratégicas. 
+                ¿Tienes algún proyecto en mente? No dudes en contactarme; estaré encantado de ayudarte a hacerlo realidad y te responderé a la brevedad
                 </p>
 
                 <div className="flex flex-col gap-y-6 items-center md:gap-y-12">
@@ -65,6 +64,7 @@ const Contact = () => {
                             <Copy className="md:size-7" />
                         </Button>
                     </div>
+                    
                     <div className="flex flex-col gap-y-2 items-center">
                         <p className="md:text-lg">Or, find me on</p>
                         <div className="flex items-center gap-x-1.5">
@@ -83,6 +83,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
+                
             </div>
         </Container>
     );

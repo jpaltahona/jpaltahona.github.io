@@ -104,6 +104,24 @@ export const SkillsData: SkillsDetails[] = [
         url: "https://wordpress.org",
     },
     {
+        label: "Docker",
+        logo: WordpressLogo,
+        srcForDarkMode: WordpressLightLogo,
+        url: "https://wordpress.org",
+    },
+    {
+        label: "Micro servicios",
+        logo: WordpressLogo,
+        srcForDarkMode: WordpressLightLogo,
+        url: "https://wordpress.org",
+    },
+    {
+        label: "Reac-native",
+        logo: WordpressLogo,
+        srcForDarkMode: WordpressLightLogo,
+        url: "https://wordpress.org",
+    },
+    {
         label: "Figma",
         logo: FigmaLogo,
         url: "https://www.figma.com",
@@ -169,7 +187,7 @@ export const SocialLinks = [
 
 export const Experiences: WorkExperienceDetails[] = [
     {
-        position: "Independent Freelancer",
+        position: "Freelancer",
         company: "Freelancer",
         logo: FiverrLogo,
         description: [
@@ -178,7 +196,7 @@ export const Experiences: WorkExperienceDetails[] = [
             "Worked with variety of technologies, including React, Next.js, TailwindCSS, Express.js, MongoDB, TypeScript, Node.js.",
         ],
         location: "Work from Home",
-        startDate: new Date(2023, 8),
+        startDate: new Date(2020, 1),
     },
     {
         position: "Sr. Software Engineer",

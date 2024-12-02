@@ -18,7 +18,7 @@ const Skills = () => {
             <div className="flex flex-col items-center gap-y-4">
                 <Tag label="Skills" />
                 <p className="max-w-xl text-center md:text-lg">
-                    The tools, skills and technologies I am good at:
+                Las herramientas, habilidades y tecnologías en las que soy bueno::
                 </p>
             </div>
 
